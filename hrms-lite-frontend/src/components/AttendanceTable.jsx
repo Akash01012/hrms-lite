@@ -1,4 +1,3 @@
-// src/components/AttendanceTable.jsx
 import React from "react";
 
 function AttendanceTable({ records, isLoading, error }) {

@@ -1,4 +1,3 @@
-// src/components/Layout.jsx
 import React from "react";
 import "./Layout.css";
 import logo from "../images/icon-logo-2.png";

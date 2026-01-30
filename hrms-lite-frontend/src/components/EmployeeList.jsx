@@ -1,4 +1,3 @@
-// src/components/EmployeeList.jsx
 import React from "react";
 
 function EmployeeList({ employees, isLoading, error, onDelete }) {
