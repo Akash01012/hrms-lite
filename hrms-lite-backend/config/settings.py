@@ -3,9 +3,8 @@ import os
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-SECRET_KEY = "change-this-in-production"
-
-DEBUG = False
+DEBUG=False
+SECRET_KEY= hrms-secret-key
 
 ALLOWED_HOSTS = ["*"]
 
