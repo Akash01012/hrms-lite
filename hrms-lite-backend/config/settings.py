@@ -76,7 +76,7 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
-    # "https://your-frontend-domain.com",
+    "https://hrms-lite-zeta.vercel.app/",
 ]
 
 REST_FRAMEWORK = {
