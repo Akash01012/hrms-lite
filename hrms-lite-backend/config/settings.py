@@ -4,7 +4,7 @@ import os
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 DEBUG=False
-SECRET_KEY= hrms-secret-key
+SECRET_KEY = os.environ.get("SECRET_KEY", "unsafe-dev-secret-key")
 
 ALLOWED_HOSTS = ["*"]
 
