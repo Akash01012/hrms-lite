@@ -49,9 +49,10 @@
 
 .grid-3 {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(180px, 1fr));
   gap: 0.8rem;
 }
+
 
 @media (max-width: 720px) {
   .grid-2,
@@ -77,8 +78,13 @@ select {
   border: 1px solid rgba(148, 163, 184, 0.6);
   background: rgba(15, 23, 42, 0.9);
   color: var(--text-main);
-  padding: 0.45rem 0.6rem;
+
+  height: 36px; 
+  line-height: 36px;
+  padding: 0 0.6rem;  
+  width: 155px;
   font-size: 0.85rem;
+  box-sizing: border-box;
 }
 
 input:focus,
@@ -233,6 +239,7 @@ button:disabled {
   gap: 1.25rem;
   align-items: flex-start;
 }
+
 
 @media (max-width: 960px) {
   .attendance-top-row {
